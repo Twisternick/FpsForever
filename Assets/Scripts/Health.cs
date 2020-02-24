@@ -12,6 +12,7 @@ public class Health : MonoBehaviour
     public void Hit()
     {
         health -= 45;
+        Debug.Log("Hit");
         if (health <= 0)
         {
             // Dead
